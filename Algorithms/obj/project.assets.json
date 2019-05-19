@@ -207,16 +207,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Algorithms/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/Algorithms.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Algorithms.dll": {}
-        }
       }
     }
   },
@@ -690,16 +680,10 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Algorithms/1.0.0": {
-      "type": "project",
-      "path": "../Algorithms/Algorithms.csproj",
-      "msbuildProject": "../Algorithms/Algorithms.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Algorithms >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -710,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aimil\\source\\repos\\GianMathExcercises\\MathExercises\\consoleApp_001\\consoleApp_001.csproj",
-      "projectName": "consoleApp_001",
-      "projectPath": "C:\\Users\\aimil\\source\\repos\\GianMathExcercises\\MathExercises\\consoleApp_001\\consoleApp_001.csproj",
+      "projectUniqueName": "C:\\Users\\aimil\\source\\repos\\GianMathExcercises\\MathExercises\\Algorithms\\Algorithms.csproj",
+      "projectName": "Algorithms",
+      "projectPath": "C:\\Users\\aimil\\source\\repos\\GianMathExcercises\\MathExercises\\Algorithms\\Algorithms.csproj",
       "packagesPath": "C:\\Users\\aimil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aimil\\source\\repos\\GianMathExcercises\\MathExercises\\consoleApp_001\\obj\\",
+      "outputPath": "C:\\Users\\aimil\\source\\repos\\GianMathExcercises\\MathExercises\\Algorithms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -732,11 +716,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "C:\\Users\\aimil\\source\\repos\\GianMathExcercises\\MathExercises\\Algorithms\\Algorithms.csproj": {
-              "projectPath": "C:\\Users\\aimil\\source\\repos\\GianMathExcercises\\MathExercises\\Algorithms\\Algorithms.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -749,6 +729,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

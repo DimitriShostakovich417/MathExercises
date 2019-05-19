@@ -1,10 +1,12 @@
 ﻿using System;
+using Algorithms;
 
 namespace consoleApp_001
 {
     class Program
     {
         static void Main(string[] args)
+
         {
             // variables:
             int num1;
@@ -15,7 +17,10 @@ namespace consoleApp_001
 
             string linea1;
             string linea2;
-            Ejercicios ejercicio = new Ejercicios;
+            Ejercicios ejercicio = new Ejercicios();
+            Fibonacci fibonacci = new Fibonacci();
+
+            
 
             //Start
             Console.WriteLine("Enter number to compare: ");
